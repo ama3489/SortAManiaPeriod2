@@ -36,7 +36,7 @@ public class Team2 extends SortCompetition{
 		}
 		
 		//challenge two
-		public int challengeTwo (String given, String[] test1) {
+		public int challengeTwo(String[] test1, String given) {
 			stringSort(test1);
 			
 			for(int i = 0; i < test1.length; i++) {
@@ -48,7 +48,7 @@ public class Team2 extends SortCompetition{
 		}
 		
 		//challenge three
-		public int challengeTree(int [] list1)
+		public int challengeThree(int [] list1)
 		{
 			insort(list1);
 			
@@ -79,7 +79,7 @@ public class Team2 extends SortCompetition{
 		}
 		
 		//challenge five
-		public int challengeFive (Comparable given, Comparable[] mysArr) {
+		public int challengeFive(Comparable[] mysArr, Comparable given) {
 			cstringSort(mysArr);
 			for(int i = 0; i < mysArr.length; i++) {
 				if(mysArr[i].equals(given)) {
