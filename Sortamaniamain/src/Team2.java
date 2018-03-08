@@ -13,48 +13,10 @@ public class Team2 extends SortCompetition{
 	{
 		return "Hello this is Team 2!! Fighting!";
 		
-	}
-	
-		public static void main(String [] args)
-		{
-
-			String [] test1 = {"apple", "cucum", "zorro", "zorro", "micro"};
-			String [] test2 = {"any", "can", "this", "body", "do"};
-			//Challenge 1 10000 Rand Int Test
-				
-			int[] randArr= randomInts(1000);
-			long start = System.nanoTime();
-			challengeOne(randArr);
-			long end = System.nanoTime();
-			long time = end - start;
-			System.out.println("Challenge 1 took: "+ time + " nanoseconds");
-			System.out.println(Arrays.toString(randArr));
-
-				//Challenge 2 10000 Rand String Test
-			start = System.nanoTime();
-			int indexReturned = challengeTwo("mincro",test1);
-			end = System.nanoTime();
-			time = end - start;
-			System.out.println("String Sort test took: "+ time + " nanoseconds");
-			System.out.println(Arrays.toString(test1)); 
-			System.out.println(indexReturned);	
-				//Challenge 3 >75% Sorted Int Test
-				
-				//Challenge 4 int[1000][1000] Rand Test 
-				
-			//Challenge 5 1D Array Mystery Comparables
-			start = System.nanoTime();
-			indexReturned = challengeFive("can",test2);
-			end = System.nanoTime();
-			time = end - start;
-			System.out.println("Comparable test took: "+ time + " nanoseconds");
-			System.out.println(Arrays.toString(test2)); 
-			System.out.println(indexReturned);
-		}
-		
+	}	
 		//challenge one
 		@Override
-		public static int challengeOne(int[] arr) 
+		public int challengeOne(int[] arr) 
 		{
 			//random number generator 
 			//data set: an array of 10,000 random integers between 0-1000
