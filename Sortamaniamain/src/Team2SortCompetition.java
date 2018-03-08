@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 2/26/18
  */
 
-public class Team2 extends SortCompetition{
+public class Team2SortCompetition extends SortCompetition{
 
 	public String greeting()
 	{
