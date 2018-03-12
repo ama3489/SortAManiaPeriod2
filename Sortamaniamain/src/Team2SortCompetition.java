@@ -59,7 +59,7 @@ public class Team2SortCompetition extends SortCompetition{
 			}
 			else
 			{
-				median = (int) list1[median] + (list1[median - 1]/2);
+				median = (int) list1[median-1] + (list1[median]/2);
 			}
 			return median;
 		}
