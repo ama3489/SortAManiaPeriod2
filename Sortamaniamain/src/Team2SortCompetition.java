@@ -75,8 +75,12 @@ public class Team2SortCompetition extends SortCompetition{
 					insort(arr[x]);
 				}
 			}
-			return 0;
+			//median method test -alyssa
+			int a = arr.length;
+			int median = ( (arr[a / 2] [a / 2]  +  arr[(a / 2)][(a / 2) - 1]  +  arr[(a / 2) - 1][a / 2]  +  arr[(a / 2) - 1][(a / 2) - 1]) / 4);
+			return median;
 		}
+	
 		
 		//challenge five
 		public int challengeFive(Comparable[] mysArr, Comparable given) {
